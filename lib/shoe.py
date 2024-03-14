@@ -2,8 +2,8 @@ class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
         self.size = None
-        self.size = size  # Use the property setter to validate size
-        self.condition = None  # Default condition is None
+        self.size = size  
+        self.condition = None  
 
     @property
     def size(self):
